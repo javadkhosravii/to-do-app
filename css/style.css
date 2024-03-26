@@ -1,0 +1,125 @@
+@import url(/css/core/global.css);
+
+/* header */
+header {
+    background-color: #EBEBEB;
+    margin-bottom: 32px;
+    padding: 24px 0px;
+    border-bottom: 1px solid #B4B4B4;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+header li {
+    display: flex;
+    align-items: center;
+}
+
+header li p {
+    font-family: 'yb';
+    margin: 16px;
+    font-size: 24px;
+}
+
+header .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    align-content: flex-end;
+    padding: 16px;
+    background-color: #BC0000;
+    border: red;
+    border-radius: 15px;
+}
+
+header .btn span {
+    padding: 8px;
+    font-family: 'yr';
+    font-size: 20px;
+    color: white;
+}
+
+/* main */
+
+main #cards {
+    display: grid;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+main .card {
+    display: grid;
+    grid-template-columns: 24px 1fr max-content;
+    gap: 16px;
+    align-items: center;
+    background-color: #EBEBEB;
+    border: 1px solid #B4B4B4;
+    padding: 16px;
+}
+
+main .card p {
+    font-family: 'yb';
+    font-size: 20px;
+}
+
+main .card.done p {
+    text-decoration: line-through;
+}
+
+
+main .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    align-content: flex-end;
+    padding: 16px;
+    background-color: #BC0000;
+    border: red;
+    border-radius: 15px;
+}
+
+main .btn span {
+    padding: 8px;
+    font-family: 'yr';
+    font-size: 20px;
+    color: white;
+}
+
+main .card .btn-blue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    align-content: flex-end;
+    padding: 16px;
+    background-color: #2A60E4;
+    border: #2A60E4;
+    border-radius: 15px;
+    margin-left: 8px;
+}
+
+
+main .btn-blue span {
+    padding: 8px;
+    font-family: 'yr';
+    font-size: 20px;
+    color: white;
+}
+
+#text-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: block;
+    margin-right: 16px;
+    font-family: 'yb';
+    font-size: 20px;
+}

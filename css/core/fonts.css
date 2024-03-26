@@ -1,0 +1,14 @@
+@font-face {
+    font-family: mb;
+    src: url(/fonts/Morabba-Bold.ttf);
+}
+
+@font-face {
+    font-family: yb;
+    src: url(/fonts/YekanBakh-Bold.ttf);
+}
+
+@font-face {
+    font-family: yr;
+    src: url(/fonts/YekanBakh-Regular.ttf);
+}

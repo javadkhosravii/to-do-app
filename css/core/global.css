@@ -1,0 +1,8 @@
+@import url(/css/core/fonts.css);
+@import url(/css/core/reset.css);
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    max-width: calc(100% - 32px);
+}
